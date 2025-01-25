@@ -15,19 +15,26 @@ This project uses **Python** and **Facebook Prophet** to analyze and forecast Sp
 ---
 
 🧰 Technologies Used
-Programming Language: Python
-Libraries:
-pandas (Data Manipulation)
-Prophet (Forecasting)
-matplotlib (Visualization)
-scikit-learn (Model Evaluation)
-numpy (Numerical Operations)
+- Programming Language: Python
+- Libraries:
+  - pandas (Data Manipulation)
+  - Prophet (Forecasting)
+  - matplotlib (Visualization)
+  - scikit-learn (Model Evaluation)
+  - numpy (Numerical Operations)
 
 ---
 
 📊 Results
 The project generates:
 
-Forecast for Spotify listening time (monthly trends).
-Visualizations comparing actual vs. predicted values.
-Evaluation metrics: MAE, RMSE, and MAPE.
+- Forecast for Spotify listening time (monthly trends).
+- Visualizations comparing actual vs. predicted values.
+- Evaluation metrics: MAE, RMSE, and MAPE.
+
+---
+
+🔮 Future Improvements
+- Incorporate daily-level data for higher granularity.
+- Explore alternative time series models (e.g., ARIMA, LSTM).
+- Add interactive dashboards using tools like Plotly or Dash.
